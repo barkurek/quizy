@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scenki na podstawie piosenki "Étoile des neiges"</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 20px;
+}
+.quiz-container {
+margin-bottom: 30px;
+}
+.question {
+font-weight: bold;
+}
+.result {
+margin-top: 20px;
+font-size: 1.2em;
+}
+</style>
+</head>
+<body>
+<h1>Quiz - Scenki językowe</h1>
+<div class="quiz -container" id="scene1">
+<h2>Scenka 1: Spotkanie w górach</h2>
+** Róża **: Bonjour, tu aimes la neige ?<BR>
+(Tłumaczenie: Dzień dobry, lubisz śnieg?)<BR>
+** Jean **: Oui, j'adore la neige !<BR>
+(Tłumaczenie: Tak, uwielbiam śnieg!)<BR>
+** Róża **: Regarde, une étoile dans le ciel !<BR>
+(Tłumaczenie: Spójrz, gwiazda na niebie!)<BR>
+** Jean **: Elle est magnifique !<BR>
+(Tłumaczenie: Jest piękna!)<BR>
+** Róża **: C'est comme dans la chanson.<BR>
+(Tłumaczenie: To jak w tej piosence.)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+La neige - śnieg
+<BR>Une étoile - gwiazda
+<BR>Le ciel - niebo
+<BR>Magnifique - piękny/piękna
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Jak po francusku powiedzieć "gwiazda"?</div>
+a) <input type="radio" name="q1" value="wrong">Une étoile<br>
+b) <input type="radio" name="q1" value="wrong">Le ciel<br>
+c) <input type="radio" name="q1" value="wrong">La neige<br>
+<BR><div class="question">2. Co oznacza zdanie "Elle est magnifique"?</div>
+a) <input type="radio" name="q2" value="wrong">Ona jest piękna<br>
+b) <input type="radio" name="q2" value="wrong">To jest gwiazda<br>
+c) <input type="radio" name="q2" value="wrong">Ona lubi śnieg<br>
+<BR><div class="question">3. Jakie jest francuskie słowo na "niebo"?</div>
+a) <input type="radio" name="q3" value="wrong">Le ciel<br>
+b) <input type="radio" name="q3" value="wrong">Une étoile<br>
+c) <input type="radio" name="q3" value="wrong">La neige<br>
+<BR><div class="question">4. Jak zapytać kogoś, czy lubi śnieg?</div>
+a) <input type="radio" name="q4" value="wrong">Tu connais la neige ?<br>
+b) <input type="radio" name="q4" value="wrong">Tu aimes la neige ?<br>
+c) <input type="radio" name="q4" value="wrong">Tu regardes la neige ?<br>
+<BR><div class="question">5. Jak powiedzieć "Tak, uwielbiam śnieg" po francusku?</div>
+a) <input type="radio" name="q5" value="wrong">Oui, je regarde la neige !<br>
+b) <input type="radio" name="q5" value="wrong">Oui, j'aime la neige !<br>
+c) <input type="radio" name="q5" value="wrong">Oui, j'adore la neige !<br>
+<BR><div class="question">6. Co znaczy słowo "magnifique"?</div>
+a) <input type="radio" name="q6" value="wrong">Śliczny/Śliczna<br>
+b) <input type="radio" name="q6" value="wrong">Piękny/Piękna<br>
+c) <input type="radio" name="q6" value="wrong">Wielki/Wielka<br>
+<BR><div class="question">7. Uzupełnij: "Regarde, une ______ dans le ciel!"</div>
+a) <input type="radio" name="q7" value="wrong">Ciel<br>
+b) <input type="radio" name="q7" value="wrong">Neige<br>
+c) <input type="radio" name="q7" value="wrong">Étoile<br>
+<BR><button type="button" onclick="checkAnswers('scene1')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene1"></div>
+</div>
+<div class="quiz -container" id="scene2">
+<h2>Scenka 2: Przy ognisku</h2>
+** Marie **: Tu connais la chanson "Étoile des neiges" ?<BR>
+(Tłumaczenie: Znasz piosenkę "Gwiazda śniegu"?)<BR>
+** Paul **: Oui, ma grand-mère la chantait.<BR>
+(Tłumaczenie: Tak, moja babcia ją śpiewała.)<BR>
+** Marie **: Chante avec moi !<BR>
+(Tłumaczenie: Zaśpiewaj ze mną!)<BR>
+** Paul **: D'accord ! Étoile des neiges...<BR>
+(Tłumaczenie: Zgoda! Gwiazdo śniegu...)<BR>
+** Marie **: ... Mon coeur amoureux !<BR>
+(Tłumaczenie: ... Moje zakochane serce!)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Chanter - śpiewać
+<BR>La chanson - piosenka
+<BR>Grand - mère
+<BR>Coeur - serce
+<BR>Amoureux - zakochany
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Co oznacza słowo "chanter"?</div>
+a) <input type="radio" name="q1" value="wrong">Śpiewać<br>
+b) <input type="radio" name="q1" value="wrong">Tańczyć<br>
+c) <input type="radio" name="q1" value="wrong">Pisać<br>
+<BR><div class="question">2. Jak powiedzieć "moja babcia" po francusku?</div>
+a) <input type="radio" name="q2" value="wrong">Mon père<br>
+b) <input type="radio" name="q2" value="wrong">Ma grand-mère<br>
+c) <input type="radio" name="q2" value="wrong">Ma mère<br>
+<BR><div class="question">3. Co oznacza zdanie "Chante avec moi"?</div>
+a) <input type="radio" name="q3" value="wrong">Pobaw się ze mną<br>
+b) <input type="radio" name="q3" value="wrong">Zaśpiewaj ze mną<br>
+c) <input type="radio" name="q3" value="wrong">Zatańcz ze mną<br>
+<BR><div class="question">4. Jakie jest francuskie słowo na "serce"?</div>
+a) <input type="radio" name="q4" value="wrong">La neige<br>
+b) <input type="radio" name="q4" value="wrong">Le coeur<br>
+c) <input type="radio" name="q4" value="wrong">La chanson<br>
+<BR><div class="question">5. Co znaczy "amoureux" w kontekście tej scenki?</div>
+a) <input type="radio" name="q5" value="wrong">Smutny<br>
+b) <input type="radio" name="q5" value="wrong">Szczęśliwy<br>
+c) <input type="radio" name="q5" value="wrong">Zakochany<br>
+<BR><div class="question">6. Jak brzmi początek piosenki, o której rozmawiają bohaterowie?</div>
+a) <input type="radio" name="q6" value="wrong">"Ma grand-mère chante"<br>
+b) <input type="radio" name="q6" value="wrong">"Mon coeur heureux"<br>
+c) <input type="radio" name="q6" value="wrong">"Étoile des neiges"<br>
+<BR><div class="question">7. Jak zapytać kogoś, czy zna piosenkę "Gwiazda śniegu"?</div>
+a) <input type="radio" name="q7" value="wrong">Tu chantes la chanson ?<br>
+b) <input type="radio" name="q7" value="wrong">Tu écoutes la chanson ?<br>
+c) <input type="radio" name="q7" value="wrong">Tu connais la chanson "Étoile des neiges" ?<br>
+<BR><button type="button" onclick="checkAnswers('scene2')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene2"></div>
+</div>
+<div class="quiz -container" id="scene3">
+<h2>Scenka 3: Na lodowisku</h2>
+** Clément **: Tu sais patiner ?<BR>
+(Tłumaczenie: Umiesz jeździć na łyżwach?)<BR>
+** Lucie **: Non, mais j'aime regarder la neige tomber.<BR>
+(Tłumaczenie: Nie, ale lubię patrzeć, jak śnieg pada.)<BR>
+** Clément **: Viens, je vais t'apprendre.<BR>
+(Tłumaczenie: Chodź, nauczę cię.)<BR>
+** Lucie **: Merci, c'est gentil.<BR>
+(Tłumaczenie: Dziękuję, to miłe.)<BR>
+** Clément **: Attention, étoile filante !<BR>
+(Tłumaczenie: Uwaga, spadająca gwiazda!)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Patiner - jeździć na łyżwach
+<BR>Tomber - padać
+<BR>Apprendre - uczyć się
+<BR>Gentil - miły
+<BR>Une étoile filante - spadająca gwiazda
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Jak powiedzieć "jeździć na łyżwach" po francusku?</div>
+a) <input type="radio" name="q1" value="wrong">Patiner<br>
+b) <input type="radio" name="q1" value="wrong">Apprendre<br>
+c) <input type="radio" name="q1" value="wrong">Tomber<br>
+<BR><div class="question">2. Co oznacza "Attention, étoile filante"?</div>
+a) <input type="radio" name="q2" value="wrong">Uwaga, patrz na niebo<br>
+b) <input type="radio" name="q2" value="wrong">Uwaga, śnieg pada<br>
+c) <input type="radio" name="q2" value="wrong">Uwaga, spadająca gwiazda<br>
+<BR><div class="question">3. Jak zapytać kogoś, czy umie jeździć na łyżwach?</div>
+a) <input type="radio" name="q3" value="wrong">Tu aimes patiner ?<br>
+b) <input type="radio" name="q3" value="wrong">Tu sais patiner ?<br>
+c) <input type="radio" name="q3" value="wrong">Tu regardes patiner ?<br>
+<BR><div class="question">4. Co oznacza "c'est gentil"?</div>
+a) <input type="radio" name="q4" value="wrong">To jest dobre<br>
+b) <input type="radio" name="q4" value="wrong">To jest piękne<br>
+c) <input type="radio" name="q4" value="wrong">To jest miłe<br>
+<BR><div class="question">5. Jakie jest francuskie słowo na "uczyć się"?</div>
+a) <input type="radio" name="q5" value="wrong">Apprendre<br>
+b) <input type="radio" name="q5" value="wrong">Patiner<br>
+c) <input type="radio" name="q5" value="wrong">Regarder<br>
+<BR><div class="question">6. Co znaczy "tomber" w kontekście tej scenki?</div>
+a) <input type="radio" name="q6" value="wrong">Padać<br>
+b) <input type="radio" name="q6" value="wrong">Jeździć<br>
+c) <input type="radio" name="q6" value="wrong">Spadać<br>
+<BR><div class="question">7. Jak po francusku powiedzieć "Dziękuję, to miłe"?</div>
+a) <input type="radio" name="q7" value="wrong">Merci, c'est bon<br>
+b) <input type="radio" name="q7" value="wrong">Merci, c'est gentil<br>
+c) <input type="radio" name="q7" value="wrong">Merci, c'est beau<br>
+<BR><button type="button" onclick="checkAnswers('scene3')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene3"></div>
+</div>
+<div class="quiz -container" id="scene4">
+<h2>Scenka 4: Wieczór przy kominku</h2>
+** Claire **: J'adore cette chanson d'amour.<BR>
+(Tłumaczenie: Uwielbiam tę piosenkę o miłości.)<BR>
+** Antoine **: Moi aussi. Elle est très romantique.<BR>
+(Tłumaczenie: Ja też. Jest bardzo romantyczna.)<BR>
+** Claire **: Tu veux danser avec moi ?<BR>
+(Tłumaczenie: Chcesz zatańczyć ze mną?)<BR>
+** Antoine **: Bien sûr !<BR>
+(Tłumaczenie: Oczywiście!)<BR>
+** Claire **: Écoute, c'est mon passage préféré.<BR>
+(Tłumaczenie: Posłuchaj, to moja ulubiona część.)<BR>
+** Antoine **: Oui, c'est magnifique.<BR>
+(Tłumaczenie: Tak, to piękne.)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Une chanson - piosenka
+<BR>D'amour - o miłości
+<BR>Romantique - romantyczny/a
+<BR>Danser - tańczyć
+<BR>Un passage - fragment
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Co oznacza "J'adore cette chanson"?</div>
+a) <input type="radio" name="q1" value="wrong">Śpiewam tę piosenkę<br>
+b) <input type="radio" name="q1" value="wrong">Tańczę do tej piosenki<br>
+c) <input type="radio" name="q1" value="correct">Uwielbiam tę piosenkę<br>
+<BR><div class="question">2. Jak powiedzieć "romantyczny" po francusku?</div>
+a) <input type="radio" name="q2" value="correct">Romantique<br>
+b) <input type="radio" name="q2" value="wrong">Amoureux<br>
+c) <input type="radio" name="q2" value="wrong">Magnifique<br>
+<BR><div class="question">3. Co znaczy "Tu veux danser avec moi"?</div>
+a) <input type="radio" name="q3" value="correct">Chcesz zatańczyć ze mną?<br>
+b) <input type="radio" name="q3" value="wrong">Czy tańczysz sam?<br>
+c) <input type="radio" name="q3" value="wrong">Czy lubisz tańczyć?<br>
+<BR><div class="question">4. Jakie jest francuskie słowo na "fragment"?</div>
+a) <input type="radio" name="q4" value="wrong">Une chanson<br>
+b) <input type="radio" name="q4" value="wrong">Une étoile<br>
+c) <input type="radio" name="q4" value="correct">Un passage<br>
+<BR><div class="question">5. Co oznacza "Écoute, c'est mon passage préféré"?</div>
+a) <input type="radio" name="q5" value="wrong">Posłuchaj, to mój głos<br>
+b) <input type="radio" name="q5" value="wrong">Posłuchaj, to moja piosenka<br>
+c) <input type="radio" name="q5" value="correct">Posłuchaj, to moja ulubiona część<br>
+<BR><div class="question">6. Jak zapytać, czy ktoś chce zatańczyć?</div>
+a) <input type="radio" name="q6" value="correct">Tu veux danser avec moi ?<br>
+b) <input type="radio" name="q6" value="wrong">Tu écoutes cette chanson ?<br>
+c) <input type="radio" name="q6" value="wrong">Tu sais chanter ?<br>
+<BR><div class="question">7. Co oznacza "Bien sûr"?</div>
+a) <input type="radio" name="q7" value="wrong">Pewnie<br>
+b) <input type="radio" name="q7" value="correct">Oczywiście<br>
+c) <input type="radio" name="q7" value="wrong">Chyba<br>
+<BR><button type="button" onclick="checkAnswers('scene4')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene4"></div>
+</div>
+<div class="quiz -container" id="scene5">
+<h2>Scenka 5: W schronisku</h2>
+** Luc **: Il fait froid dehors !<BR>
+(Tłumaczenie: Na dworze jest zimno!)<BR>
+** Sophie **: Oui, mais le feu ici est chaleureux.<BR>
+(Tłumaczenie: Tak, ale ogień tutaj jest ciepły.)<BR>
+** Luc **: Tu veux un chocolat chaud ?<BR>
+(Tłumaczenie: Chcesz gorącą czekoladę?)<BR>
+** Sophie **: Avec plaisir, merci !<BR>
+(Tłumaczenie: Z przyjemnością, dziękuję!)<BR>
+** Luc **: Regarde la neige à travers la fenêtre.<BR>
+(Tłumaczenie: Spójrz na śnieg przez okno.)<BR>
+** Sophie **: C'est si paisible.<BR>
+(Tłumaczenie: To takie spokojne.)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Froid - zimno
+<BR>Le feu - ogień
+<BR>Chaleureux - ciepły
+<BR>Un chocolat chaud - gorąca czekolada
+<BR>À travers - przez
+<BR>Paisible - spokojny/a
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Co oznacza "Il fait froid dehors"?</div>
+a) <input type="radio" name="q1" value="wrong">Na dworze jest ciepło<br>
+b) <input type="radio" name="q1" value="wrong">Na dworze jest wietrznie<br>
+c) <input type="radio" name="q1" value="correct">Na dworze jest zimno<br>
+<BR><div class="question">2. Jak powiedzieć "ogień" po francusku?</div>
+a) <input type="radio" name="q2" value="wrong">Le froid<br>
+b) <input type="radio" name="q2" value="correct">Le feu<br>
+c) <input type="radio" name="q2" value="wrong">La fenêtre<br>
+<BR><div class="question">3. Co znaczy "Tu veux un chocolat chaud"?</div>
+a) <input type="radio" name="q3" value="wrong">Czy masz gorącą czekoladę?<br>
+b) <input type="radio" name="q3" value="correct">Czy chcesz gorącą czekoladę?<br>
+c) <input type="radio" name="q3" value="wrong">Czy pijesz gorącą czekoladę?<br>
+<BR><div class="question">4. Jak powiedzieć "przez" po francusku?</div>
+a) <input type="radio" name="q4" value="wrong">À côté<br>
+b) <input type="radio" name="q4" value="wrong">Avec<br>
+c) <input type="radio" name="q4" value="correct">À travers<br>
+<BR><div class="question">5. Co oznacza "C'est si paisible"?</div>
+a) <input type="radio" name="q5" value="wrong">To takie piękne<br>
+b) <input type="radio" name="q5" value="correct">To takie spokojne<br>
+c) <input type="radio" name="q5" value="wrong">To takie smutne<br>
+<BR><div class="question">6. Jak powiedzieć "gorąca czekolada" po francusku?</div>
+a) <input type="radio" name="q6" value="wrong">Un café chaud<br>
+b) <input type="radio" name="q6" value="correct">Un chocolat chaud<br>
+c) <input type="radio" name="q6" value="wrong">Une boisson chaude<br>
+<BR><div class="question">7. Co oznacza "Avec plaisir"?</div>
+a) <input type="radio" name="q7" value="wrong">Chętnie<br>
+b) <input type="radio" name="q7" value="correct">Z przyjemnością<br>
+c) <input type="radio" name="q7" value="wrong">Dziękuję<br>
+<BR><button type="button" onclick="checkAnswers('scene5')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene5"></div>
+</div>
+<div class="quiz -container" id="scene6">
+<h2>Scenka 6: Na spacerze w lesie</h2>
+** Julie **: Ce sentier est magnifique.<BR>
+(Tłumaczenie: Ten szlak jest piękny.)<BR>
+** Marc **: Oui, surtout avec toute cette neige.<BR>
+(Tłumaczenie: Tak, zwłaszcza z tym całym śniegiem.)<BR>
+** Julie **: Écoute, on entend les oiseaux.<BR>
+(Tłumaczenie: Posłuchaj, słychać ptaki.)<BR>
+** Marc **: Et le vent dans les arbres.<BR>
+(Tłumaczenie: I wiatr w drzewach.)<BR>
+** Julie **: J'adore ces moments en nature.<BR>
+(Tłumaczenie: Uwielbiam te chwile na łonie natury.)<BR>
+** Marc **: Moi aussi, c'est reposant.<BR>
+(Tłumaczenie: Ja też, to odprężające.)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Un sentier - szlak
+<BR>Magnifique - piękny
+<BR>Les oiseaux - ptaki
+<BR>Le vent - wiatr
+<BR>Reposant - odprężający
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Co oznacza "Ce sentier est magnifique"?</div>
+a) <input type="radio" name="q1" value="correct">Ten szlak jest piękny<br>
+b) <input type="radio" name="q1" value="wrong">Ten las jest piękny<br>
+c) <input type="radio" name="q1" value="wrong">Ten wiatr jest piękny<br>
+<BR><div class="question">2. Jak powiedzieć "ptaki" po francusku?</div>
+a) <input type="radio" name="q2" value="wrong">Les vents<br>
+b) <input type="radio" name="q2" value="wrong">Les arbres<br>
+c) <input type="radio" name="q2" value="correct">Les oiseaux<br>
+<BR><div class="question">3. Co znaczy "Écoute, on entend les oiseaux"?</div>
+a) <input type="radio" name="q3" value="wrong">Patrz, ptaki są tutaj<br>
+b) <input type="radio" name="q3" value="wrong">Posłuchaj, ptaki śpiewają<br>
+c) <input type="radio" name="q3" value="correct">Posłuchaj, słychać ptaki<br>
+<BR><div class="question">4. Jak powiedzieć "wiatr" po francusku?</div>
+a) <input type="radio" name="q4" value="correct">Le vent<br>
+b) <input type="radio" name="q4" value="wrong">Le sentier<br>
+c) <input type="radio" name="q4" value="wrong">Le repos<br>
+<BR><div class="question">5. Co oznacza "C'est reposant"?</div>
+a) <input type="radio" name="q5" value="correct">To jest odprężające<br>
+b) <input type="radio" name="q5" value="wrong">To jest piękne<br>
+c) <input type="radio" name="q5" value="wrong">To jest spokojne<br>
+<BR><div class="question">6. Jak powiedzieć "szlak" po francusku?</div>
+a) <input type="radio" name="q6" value="correct">Un sentier<br>
+b) <input type="radio" name="q6" value="wrong">Un chemin<br>
+c) <input type="radio" name="q6" value="wrong">Une route<br>
+<BR><div class="question">7. Co oznacza "J'adore ces moments en nature"?</div>
+a) <input type="radio" name="q7" value="wrong">Kocham patrzeć na drzewa<br>
+b) <input type="radio" name="q7" value="wrong">Lubię spacery po lesie<br>
+c) <input type="radio" name="q7" value="correct">Uwielbiam te chwile na łonie natury<br>
+<BR><button type="button" onclick="checkAnswers('scene6')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene6"></div>
+</div>
+<div class="quiz -container" id="scene7">
+<h2>Scenka 7: Przy ognisku</h2>
+** Paul **: Quelle belle nuit étoilée !<BR>
+(Tłumaczenie: Jaka piękna gwiaździsta noc!)<BR>
+** Marie **: Oui, et ce feu est si réconfortant.<BR>
+(Tłumaczenie: Tak, a ten ogień jest taki kojący.)<BR>
+** Paul **: Tu veux chanter une chanson ?<BR>
+(Tłumaczenie: Chcesz zaśpiewać piosenkę?)<BR>
+** Marie **: Pourquoi pas ? Je connais "Étoile des neiges".<BR>
+(Tłumaczenie: Czemu nie? Znam "Gwiazdę śniegu".)<BR>
+** Paul **: Moi aussi. Commençons !<BR>
+(Tłumaczenie: Ja też. Zacznijmy!)<BR>
+<div class="question">
+<h3>** Słowniczek **</h3>
+Étoilée - gwiaździsta
+<BR>Réconfortant - kojący
+<BR>Chanter - śpiewać
+<BR>Une chanson - piosenka
+<BR>Connaître - znać
+<BR>Commencer - zaczynać
+<BR></div><BR>
+
+** Quiz **
+<BR>
+<div class="question">1. Co oznacza "Quelle belle nuit étoilée"?</div>
+a) <input type="radio" name="q1" value="wrong">Jak piękna jest gwiazda<br>
+b) <input type="radio" name="q1" value="wrong">Jakie piękne gwiazdy<br>
+c) <input type="radio" name="q1" value="correct">Jaka piękna gwiaździsta noc<br>
+<BR><div class="question">2. Jak powiedzieć "kojący" po francusku?</div>
+a) <input type="radio" name="q2" value="wrong">Étoilée<br>
+b) <input type="radio" name="q2" value="correct">Réconfortant<br>
+c) <input type="radio" name="q2" value="wrong">Paisible<br>
+<BR><div class="question">3. Co znaczy "Tu veux chanter une chanson"?</div>
+a) <input type="radio" name="q3" value="correct">Chcesz zaśpiewać piosenkę?<br>
+b) <input type="radio" name="q3" value="wrong">Chcesz posłuchać piosenki?<br>
+c) <input type="radio" name="q3" value="wrong">Chcesz zatańczyć?<br>
+<BR><div class="question">4. Jak powiedzieć "znać" po francusku?</div>
+a) <input type="radio" name="q4" value="correct">Connaître<br>
+b) <input type="radio" name="q4" value="wrong">Chanter<br>
+c) <input type="radio" name="q4" value="wrong">Commencer<br>
+<BR><div class="question">5. Co oznacza "Pourquoi pas"?</div>
+a) <input type="radio" name="q5" value="wrong">Dlaczego tak?<br>
+b) <input type="radio" name="q5" value="wrong">Dlaczego nie wiem?<br>
+c) <input type="radio" name="q5" value="correct">Czemu nie?<br>
+<BR><div class="question">6. Jak powiedzieć "zacząć" po francusku?</div>
+a) <input type="radio" name="q6" value="wrong">Connaître<br>
+b) <input type="radio" name="q6" value="wrong">Réconfortant<br>
+c) <input type="radio" name="q6" value="correct">Commencer<br>
+<BR><div class="question">7. Co oznacza "Ce feu est si réconfortant"?</div>
+a) <input type="radio" name="q7" value="wrong">Ten ogień jest taki jasny<br>
+b) <input type="radio" name="q7" value="wrong">To ognisko jest takie gorące<br>
+c) <input type="radio" name="q7" value="correct">Ten ogień jest taki kojący<br>
+<BR><button type="button" onclick="checkAnswers('scene7')">Sprawdź odpowiedzi</button>
+<div class="result" id="result-scene7"></div>
+</div>
+<script>
+function checkAnswers(sceneId)
+{
+  const scene = document.getElementById(sceneId);
+  const questions = scene.querySelectorAll('input[type="radio"]:checked');
+  let score = 0;
+let totalQuestions = 0;
+questions.forEach((question) => {
+totalQuestions++;
+if (question.value === 'correct')
+{
+score++;
+}
+});
+const resultDiv = scene.querySelector('.result');
+resultDiv.textContent = `Twój wynik: ${ score}
+z ${ totalQuestions}`;
+}
+</script>
+</body>
+</html>
